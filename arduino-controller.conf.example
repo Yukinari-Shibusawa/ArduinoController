@@ -1,0 +1,7 @@
+# Linux serial port, for example /dev/ttyACM0
+PORT /dev/ttyACM0
+BAUD 115200
+WATCHDOG_MS 2000
+
+# OUTPUT <name> <DIGITAL|PWM|SERVO> <Arduino Uno pin>
+OUTPUT pump_driver DIGITAL 8
